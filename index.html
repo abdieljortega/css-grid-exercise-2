@@ -4,41 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Platzi video</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="app.css" type="text/css">
+    <script src="https://use.fontawesome.com/5212501da1.js"></script>
 </head>
 <body>
     <div class="sidebar">
-        <img class="logo" src="" alt="">
+        <img class="logo" src="logo-platzi-video-BW2.png" alt="Platzi video logo">
         <div class="playlist">
-            <h2 class="playlist__title">Mi playlist</h2>
-            <ul class="playlist__list">
-                <li class="playlist__list--song">song #1</li>
-                <li class="playlist__list--song">song #2</li>
-                <li class="playlist__list--song">song #3</li>
-                <li class="playlist__list--song">song #4</li>
-                <li class="playlist__list--song">song #5</li>
-                <li class="playlist__list--song">song #6</li>
-                <li class="playlist__list--song">song #7</li>
-                <li class="playlist__list--song">song #8</li>
-                <li class="playlist__list--song">song #9</li>
-                <li class="playlist__list--song">song #10</li>
-            </ul>
+            <p class="playlist__title">Mi playlist</p>
+            <ol class="playlist__list">
+                <li class="playlist__list--song"><p>1</p><p>song #1 dsfdsgsd gsdgsgsgsg dasdasd</p></li>
+                <li class="playlist__list--song"><p>2</p><p>song #2</p></li>
+                <li class="playlist__list--song"><p>3</p><p>song #3</p></li>
+                <li class="playlist__list--song"><p>4</p><p>song #4</p></li>
+                <li class="playlist__list--song"><p>5</p><p>song #5</p></li>
+                <li class="playlist__list--song"><p>6</p><p>song #6</p></li>
+                <li class="playlist__list--song"><p>7</p><p>song #7</p></li>
+                <li class="playlist__list--song"><p>8</p><p>song #8</p></li>
+                <li class="playlist__list--song"><p>9</p><p>song #9</p></li>
+                <li class="playlist__list--song"><p>10</p><p>song #10</p></li>
+            </ol>
         </div>
         <div class="friends-playlist">
-            <h2 class="friends-playlist__title">Playlist de Amigos</h2>
+            <p class="friends-playlist__title">Playlist de Amigos</p>
             <ul class="friends-playlist__list">
-                <li class="friends-playlist__list--friend-name">friend #1</li>
-                <li class="friends-playlist__list--friend-name">friend #2</li>
-                <li class="friends-playlist__list--friend-name">friend #3</li>
-                <li class="friends-playlist__list--friend-name">friend #4</li>
+                <li class="friend">
+                    <img class="friend__img" src="perfil.jpg" alt="">
+                    <p class="friend__name">friend #1</p>
+                </li>
+                <li class="friend">
+                    <img class="friend__img" src="perfil.jpg" alt="">
+                    <p class="friend__name">friend #2</p>
+                </li>
+                <li class="friend">
+                    <img class="friend__img" src="perfil.jpg" alt="">
+                    <p class="friend__name">friend #3</p>
+                </li>
+                <li class="friend">
+                    <img class="friend__img" src="perfil.jpg" alt="">
+                    <p class="friend__name">friend #4</p>
+                </li>
             </ul>
         </div>
     </div>
 
     <main class="main">
         <div class="movie">
-            <video class="movie-video" src="Prince_Royce_-_Crame_Official_Video_ft_Manuel_Turizo.mp4" type="video/mp4">
+            <video class="movie__video" src="Prince_Royce_-_Crame_Official_Video_ft_Manuel_Turizo.mp4" type="video/mp4">
             </video>
-            <div class="back-button"></div>
+            <div class="back-button"><i class="fa fa-arrow-left"></i></div>
             <h1 class="movie-title">Prince Royce - Cúrame</h1>
             <p class="movie-views">124,886 vistas</p>
             <div class="buttons">
