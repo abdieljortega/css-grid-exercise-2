@@ -1,98 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Platzi video</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="app.css" type="text/css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" type="text/css" />
     <script src="https://use.fontawesome.com/5212501da1.js"></script>
-</head>
-<body>
+  </head>
+
+  <body>
     <div class="sidebar">
-        <img class="logo" src="logo-platzi-video-BW2.png" alt="Platzi video logo">
-        <div class="playlist">
-            <p class="playlist__title">Mi playlist</p>
-            <ol class="playlist__list">
-                <li class="playlist__list--song"><p>1</p><p>song #1 dsfdsgsd gsdgsgsgsg dasdasd</p></li>
-                <li class="playlist__list--song"><p>2</p><p>song #2</p></li>
-                <li class="playlist__list--song"><p>3</p><p>song #3</p></li>
-                <li class="playlist__list--song"><p>4</p><p>song #4</p></li>
-                <li class="playlist__list--song"><p>5</p><p>song #5</p></li>
-                <li class="playlist__list--song"><p>6</p><p>song #6</p></li>
-                <li class="playlist__list--song"><p>7</p><p>song #7</p></li>
-                <li class="playlist__list--song"><p>8</p><p>song #8</p></li>
-                <li class="playlist__list--song"><p>9</p><p>song #9</p></li>
-                <li class="playlist__list--song"><p>10</p><p>song #10</p></li>
-            </ol>
-        </div>
-        <div class="friends-playlist">
-            <p class="friends-playlist__title">Playlist de Amigos</p>
-            <ul class="friends-playlist__list">
-                <li class="friend">
-                    <img class="friend__img" src="perfil.jpg" alt="">
-                    <p class="friend__name">friend #1</p>
-                </li>
-                <li class="friend">
-                    <img class="friend__img" src="perfil.jpg" alt="">
-                    <p class="friend__name">friend #2</p>
-                </li>
-                <li class="friend">
-                    <img class="friend__img" src="perfil.jpg" alt="">
-                    <p class="friend__name">friend #3</p>
-                </li>
-                <li class="friend">
-                    <img class="friend__img" src="perfil.jpg" alt="">
-                    <p class="friend__name">friend #4</p>
-                </li>
-            </ul>
-        </div>
+      <img
+        class="logo"
+        src="logo-platzi-video-BW2.png"
+        alt="Platzi video logo"
+      />
+      <div class="playlist">
+        <p class="playlist__title">Mi playlist</p>
+        <ol class="playlist__list">
+          <li class="playlist__list--song">
+            <p>1</p>
+            <p>song #1 </p>
+          </li>
+          <li class="playlist__list--song">
+            <p>2</p>
+            <p>song #2</p>
+          </li>
+          <li class="playlist__list--song">
+            <p>3</p>
+            <p>song #3</p>
+          </li>
+          <li class="playlist__list--song">
+            <p>4</p>
+            <p>song #4</p>
+          </li>
+          <li class="playlist__list--song">
+            <p>5</p>
+            <p>song #5</p>
+          </li>
+          <li class="playlist__list--song">
+            <p>6</p>
+            <p>song #6</p>
+          </li>
+          <li class="playlist__list--song">
+            <p>7</p>
+            <p>song #7</p>
+          </li>
+          <li class="playlist__list--song">
+            <p>8</p>
+            <p>song #8</p>
+          </li>
+          <li class="playlist__list--song">
+            <p>9</p>
+            <p>song #9</p>
+          </li>
+          <li class="playlist__list--song">
+            <p>10</p>
+            <p>song #10</p>
+          </li>
+        </ol>
+      </div>
+      <div class="friends-playlist">
+        <p class="friends-playlist__title">Playlist de Amigos</p>
+        <ul class="friends-playlist__list">
+          <li class="friend">
+            <img class="friend__img" src="perfil.jpg" alt="" />
+            <p class="friend__name">friend #1</p>
+          </li>
+          <li class="friend">
+            <img class="friend__img" src="perfil.jpg" alt="" />
+            <p class="friend__name">friend #2</p>
+          </li>
+          <li class="friend">
+            <img class="friend__img" src="perfil.jpg" alt="" />
+            <p class="friend__name">friend #3</p>
+          </li>
+          <li class="friend">
+            <img class="friend__img" src="perfil.jpg" alt="" />
+            <p class="friend__name">friend #4</p>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <main class="main">
-        <div class="movie">
-            <video class="movie__video" src="Prince_Royce_-_Crame_Official_Video_ft_Manuel_Turizo.mp4" type="video/mp4">
-            </video>
-            <div class="back-button"><i class="fa fa-arrow-left"></i></div>
-            <h1 class="movie-title">Prince Royce - Cúrame</h1>
-            <p class="movie-views">124,886 vistas</p>
+      <div class="movie">
+        <video
+          class="movie__video"
+          src="Prince_Royce_-_Crame_Official_Video_ft_Manuel_Turizo.mp4"
+          type="video/mp4"
+          controls
+          poster="curame.jpg"
+        >
+        </video>
+        <div class="back-button"><i class="fa fa-arrow-left"></i></div>
+        <div class="movie-details">
+          <h1 class="movie-title">Prince Royce - Cúrame</h1>
+          <p class="movie-views">124,886 vistas</p>
+          <div class="controls">
             <div class="buttons">
-                <button type="button" class="buttons__add">Agregar a mi lista</button>
-                <button type="button" class="buttons__share">Compartir</button>
-                <button type="button" class="buttons__save">Guardar</button>
+              <button type="button" class="buttons__add">
+                <span>Agregar a mi lista</span>
+              </button>
+              <button type="button" class="buttons__share">
+                <i class="fa fa-share" aria-hidden="true"></i>
+                <span>Compartir</span>
+              </button>
+              <button type="button" class="buttons__save">
+                <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                <span>Guardar</span>
+              </button>
             </div>
             <div class="genres">
-                <a href="">genre #1</a>
-                <a href="">genre #2</a>
-                <a href="">genre #3</a>
-                <a href="">genre #4</a>
+              <a href="">80s</a>
+              <a href="">Electronic</a>
+              <a href="">Rock</a>
+              <a href="">Pop</a>
             </div>
+          </div>
         </div>
-        <div class="comments-and-suggests">
-            <div class="comments__container">
-                <p class="comments__title">Comentarios</p>
-                <div class="comments__input">
-                    <input placeholder="Añade un comentario" type="text" class="comments__input--inp">
-                    <img src="" alt="">
-                </div>
-                <div class="comments">
-                    <div class="comment">
-                        <img class="comment__img" src="" alt="">
-                        <p class="comment__name">Fernando Herrera</p>
-                        <p class="comment__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste laudantium quia aspernatur doloribus officia eos hic rem accusantium minima ipsum, suscipit</p>
-                    </div>
-                </div>
+      </div>
+      <div class="comments-and-suggests">
+        <div class="comments__container">
+          <p class="comments__title">Comentarios</p>
+          <div class="comments__input">
+            <input
+              placeholder="Añade un comentario"
+              type="text"
+              class="comments__input--inp"
+            />
+            <img
+              class="comments__input--img"
+              src="perfil.jpg"
+              alt="foto de perfil"
+            />
+          </div>
+          <div class="comments">
+            <div class="comment">
+              <img
+                class="comment__img"
+                src="perfil.jpg"
+                alt="Foto de perfil de usuario"
+              />
+              <div class="comment__info">
+                <p class="comment__name">Fernando Herrera</p>
+                <p class="comment__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                  laudantium quia aspernatur doloribus officia eos hic rem
+                  accusantium minima ipsum, suscipit
+                </p>
+              </div>
             </div>
-            <div class="suggests__container">
-                <p class="suggests__title">Sugerencias</p>
-                <div class="suggests">
-                    <div class="suggest">
-                        <img class="suggest__img" src="" alt="">
-                        <p class="suggest__text">Mario Bautista - Baby girl</p>
-                    </div>
-                </div>
+            <div class="comment">
+              <img
+                class="comment__img"
+                src="perfil.jpg"
+                alt="Foto de perfil de usuario"
+              />
+              <div class="comment__info">
+                <p class="comment__name">Fernando Herrera</p>
+                <p class="comment__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                  laudantium quia aspernatur doloribus officia eos hic rem
+                  accusantium minima ipsum, suscipit
+                </p>
+              </div>
             </div>
+            <div class="comment">
+              <img
+                class="comment__img"
+                src="perfil.jpg"
+                alt="Foto de perfil de usuario"
+              />
+              <div class="comment__info">
+                <p class="comment__name">Fernando Herrera</p>
+                <p class="comment__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                  laudantium quia aspernatur doloribus officia eos hic rem
+                  accusantium minima ipsum, suscipit
+                </p>
+              </div>
+            </div>
+            <div class="comment">
+              <img
+                class="comment__img"
+                src="perfil.jpg"
+                alt="Foto de perfil de usuario"
+              />
+              <div class="comment__info">
+                <p class="comment__name">Fernando Herrera</p>
+                <p class="comment__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+                  laudantium quia aspernatur doloribus officia eos hic rem
+                  accusantium minima ipsum, suscipit
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="suggests__container">
+          <p class="suggests__title">Sugerencias</p>
+          <div class="suggests">
+            <div class="suggest">
+              <img
+                class="suggest__img"
+                src="m3qrha.jpg"
+                alt="Suggest preview"
+              />
+              <p class="suggest__text">Mario Bautista - Baby girl</p>
+            </div>
+          </div>
+            <div class="suggest">
+              <img
+                class="suggest__img"
+                src="m3qrha.jpg"
+                alt="Suggest preview"
+              />
+              <p class="suggest__text">Mario Bautista - Baby girl</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
